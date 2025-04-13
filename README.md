@@ -1,8 +1,10 @@
 # Snow-GS
 
 ### Conda create
+~~~
 conda create -n snow-gs python=3.12 -y
 conda activate snow-gs
+~~~
 
 ### Packages
 ~~~
