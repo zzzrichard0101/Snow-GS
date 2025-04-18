@@ -22,10 +22,12 @@ Houdini에서 바로 시뮬레이션까지 연결되는 **아티스트 친화적
 
 your_project/
 │
+
 ├── houdini/                            # 🎨 Houdini 디지털 에셋 및 내부 스크립트
 │   ├── RunPipelineHDA.hda              # HDA 디지털 에셋
 │   └── scripts/
 │       └── gaussian_normal.py          # PCA 기반 중력 추정 스크립트 (HDA 내부에서 실행됨)
+
 │
 ├── interface/                          # 🔌 Houdini → 외부 Flask 서버 요청용
 │   └── run_pipeline_button.py          # HDA 버튼에서 Flask 서버로 HTTP 요청 보내기
